@@ -7,20 +7,23 @@
  * components
  */
 
-import React from 'react'
-import Header from './components/Header'
-import Hero from './components/Hero'
-
+import React from "react";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import About from "./components/About";
+import Skill from "./components/Skill";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <main>
-      <Hero />
-        </main>
-    </div>
-  )
+        <Hero />
+        <About />
+        <Skill />
+      </main>
+    </>
+  );
 }
 
-export default App
+export default App;
