@@ -11,9 +11,9 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
   {
-    imgSrc: "/figma.svg",
-    label: "Figma",
-    desc: "Design tool",
+    imgSrc: "/html.svg",
+    label: "HTML",
+    desc: "User Interface",
   },
   {
     imgSrc: "/css3.svg",
@@ -31,14 +31,14 @@ const skillItem = [
     desc: "Web Server",
   },
   {
-    imgSrc: "/expressjs.svg",
-    label: "ExpressJS",
-    desc: "Node Framework",
+    imgSrc: "/typescript.svg",
+    label: "TypeScript",
+    desc: "JavaScript Framework",
   },
   {
-    imgSrc: "/mongodb.svg",
-    label: "MongoDB",
-    desc: "Database",
+    imgSrc: "/nextjs.svg",
+    label: "NextJS",
+    desc: "React Framework",
   },
   {
     imgSrc: "/react.svg",

@@ -21,7 +21,7 @@ const Hero = () => {
         <div>
           <div className="flex items-center gap-3">
             <figure className="img-box w-9 h-9 rounded-lg">
-              <img src="/avatar-1.jpg"
+              <img src="/gojo.jpg"
               width={40} 
               height={40}
               alt="Chan Myae portrait" 
@@ -41,12 +41,13 @@ const Hero = () => {
         </h2>
         <div className="flex items-center gap-3 ">
           <ButtonPrimary 
+            href='https://www.canva.com/design/DAGXr0zyff8/3HOQbhiptw86RDsT5Rropg/edit?utm_content=DAGXr0zyff8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton'
             label="Download CV"
             icon="download"
           />
 
           <ButtonOutline 
-          href="about"
+          href="#about"
           label="Scroll down"
           icon="arrow_downward"
           />
