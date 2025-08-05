@@ -6,11 +6,11 @@
 const aboutItems = [
   {
     label: "Project done",
-    number: 45,
+    number: 10,
   },
   {
     label: "Years of experience",
-    number: 10,
+    number: 2,
   },
 ];
 
@@ -21,7 +21,7 @@ const About = () => {
     <section id="about" className="section">
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
-          <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-[60ch]">
+          <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-[60ch] text-justify">
             Welcome! I&apos;m Chan, a professional web developer with a knack
             for crafting visually stunning and highly functional websites.
             Combining creativity and technical expertise. I transform your
